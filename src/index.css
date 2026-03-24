@@ -8,7 +8,7 @@
 
 body {
   font-family: var(--font-sans);
-  background-color: #09090b; /* zinc-950 */
+  background-color: #fff; /* zinc-950 */
   color: #fafafa; /* zinc-50 */
   overflow-x: hidden;
 }

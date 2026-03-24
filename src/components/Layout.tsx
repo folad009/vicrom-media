@@ -28,10 +28,17 @@ export default function Layout() {
     };
   }, []);
 
-  // Scroll to top on route change
   useEffect(() => {
+    if (location.hash) {
+      const id = location.hash.slice(1);
+      const scrollToId = () =>
+        document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+      requestAnimationFrame(scrollToId);
+      const t = window.setTimeout(scrollToId, 150);
+      return () => window.clearTimeout(t);
+    }
     window.scrollTo(0, 0);
-  }, [location.pathname]);
+  }, [location.pathname, location.hash]);
 
   return (
     <div className="min-h-screen flex flex-col">
