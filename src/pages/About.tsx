@@ -94,7 +94,7 @@ export default function About() {
                 <img
                   src={src}
                   alt={`Client partner ${i + 1}`}
-                  className="max-h-14 md:max-h-16 w-full object-contain"
+                  className="max-h-28 md:max-h-32 w-full object-contain"
                   loading="lazy"
                 />
               </div>

@@ -4,7 +4,7 @@ import AnimatedText from "../components/AnimatedText";
 const services = [
   {
     title: "Designs & Concept Development",
-    desc: "With our zany and well equipped graphic designers, we produce functional designs and concepts that brings to life well thought through ideas.",
+    desc: "With our zany and well equipped graphic designers, we produce functional designs and concepts that bring to life well thought through ideas.",
   },
   {
     title: "Digital Marketing",
