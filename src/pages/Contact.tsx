@@ -27,9 +27,9 @@ export default function Contact() {
             </div>
           </div>
           <form className="flex flex-col gap-8" onSubmit={(e) => e.preventDefault()}>
-            <input type="text" placeholder="Your Name" className="bg-transparent border-b border-zinc-800 py-4 focus:outline-none focus:border-white transition-colors text-xl" />
-            <input type="email" placeholder="Your Email" className="bg-transparent border-b border-zinc-800 py-4 focus:outline-none focus:border-white transition-colors text-xl" />
-            <textarea placeholder="Tell us about your project" rows={4} className="bg-transparent border-b border-zinc-800 py-4 focus:outline-none focus:border-white transition-colors text-xl resize-none"></textarea>
+            <input type="text" placeholder="Your Name" className="bg-transparent border border-zinc-800 py-4 focus:outline-none focus:border-black transition-colors text-lg text-black p-4" />
+            <input type="email" placeholder="Your Email" className="bg-transparent border border-zinc-800 py-4 focus:outline-none focus:border-black transition-colors text-lg text-black p-4" />
+            <textarea placeholder="Tell us about your project" rows={4} className="bg-transparent border border-zinc-800 py-4 focus:outline-none focus:border-black transition-colors text-lg text-black p-4 resize-none"></textarea>
             <button className="self-start bg-zinc-800 text-white px-8 py-4 rounded-full font-medium hover:bg-[#ED3237] hover:text-white transition-colors mt-4">Send Message</button>
           </form>
         </div>

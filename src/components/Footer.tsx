@@ -16,7 +16,7 @@ export default function Footer() {
           </div>
           <div>
             <h4 className="font-display font-bold text-[#ED3237] mb-4">Office</h4>
-            <p className="text-gray-700">31, OLatilewa Street<br/>Lawanson-Ikate, Surulere, Lagos</p>
+            <p className="text-gray-700">31, Olatilewa Street<br/>Lawanson-Ikate, Surulere, Lagos</p>
           </div>
           <div>
             <h4 className="font-display text-[#ED3237] font-bold mb-4">Contact</h4>
