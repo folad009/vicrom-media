@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <h4 className="font-display text-[#ED3237] font-bold mb-4">Socials</h4>
             <ul className="space-y-2 text-gray-700">
-              <li><a href="#" className="hover:text-[#ED3237] transition-colors">Instagram</a></li>
+              <li><a href="https://www.instagram.com/vicromng/" target="_blank" className="hover:text-[#ED3237] transition-colors">Instagram</a></li>
               <li><a href="#" className="hover:text-[#ED3237] transition-colors">Twitter</a></li>
               <li><a href="#" className="hover:text-[#ED3237] transition-colors">LinkedIn</a></li>
             </ul>
@@ -20,7 +20,11 @@ export default function Footer() {
           </div>
           <div>
             <h4 className="font-display text-[#ED3237] font-bold mb-4">Contact</h4>
-            <p className="text-gray-700">info@vicrom.com<br/>08077807105<br/>09038931160</p>
+            <div className="text-gray-700">
+              <a href="mailto:info@vicromng.com">info@vicromng.com</a>
+              <a href="tel:08077807105">08077807105</a>
+              <a href="tel:09038931160">09038931160</a>
+            </div>
           </div>
         </div>
       </div>
