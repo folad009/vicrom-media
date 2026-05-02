@@ -21,8 +21,8 @@ export default function Footer() {
           <div>
             <h4 className="font-display text-[#ED3237] font-bold mb-4">Contact</h4>
             <div className="text-gray-700">
-              <a href="mailto:info@vicromng.com">info@vicromng.com</a>
-              <a href="tel:08077807105">08077807105</a>
+              <a href="mailto:info@vicromng.com">info@vicromng.com</a><br/>
+              <a href="tel:08077807105">08077807105</a><br/>
               <a href="tel:09038931160">09038931160</a>
             </div>
           </div>

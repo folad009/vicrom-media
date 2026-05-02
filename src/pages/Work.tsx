@@ -77,7 +77,7 @@ export default function Work() {
                 >
                   <img
                     src={src}
-                    alt=""
+                    alt={`${cat.title} project ${i + 1}`}
                     className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-[1.02]"
                     loading="lazy"
                   />
@@ -97,7 +97,7 @@ export default function Work() {
         >
           <img
             src={lightboxSrc}
-            alt=""
+            alt="Selected portfolio preview"
             className="max-h-[90vh] max-w-full object-contain"
           />
         </button>
